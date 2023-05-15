@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mud.per.iw.techapp.CameraSourcePreview
+    android:id="@+id/preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <mud.per.iw.techapp.GraphicOverlay
+    android:id="@+id/barcodeOverlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    </mud.per.iw.techapp.CameraSourcePreview>
+    <mud.per.iw.techapp.OverlayView
+    android:id="@+id/overlayView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" />
+</android.support.constraint.ConstraintLayout>
